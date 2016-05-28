@@ -1,0 +1,30 @@
+{
+  "name": "itlog",
+  "version": "0.1.0",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com/)",
+  "description": "",
+  "keywords": [
+    "logger",
+    "log"
+  ],
+  "license": "MIT",
+  "repository": "git://github.com/genediazjr/itlog",
+  "bugs": "https://github.com/genediazjr/itlog/issues",
+  "main": "lib/index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "test": "lab -c -v -L -a code",
+    "test-cover": "lab -c -v -L -a code -r html -o ./coverage.html -L && open ./coverage.html"
+  },
+  "dependencies": {
+    "async": "1.5.x",
+    "joi": "8.1.x"
+  },
+  "devDependencies": {
+    "coveralls": "2.11.x",
+    "code": "3.0.x",
+    "lab": "10.7.x"
+  }
+}
