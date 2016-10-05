@@ -1,8 +1,8 @@
 {
   "name": "itlog",
   "version": "0.1.0",
-  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com/)",
-  "description": "",
+  "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
+  "description": "Yet another javascript logger",
   "keywords": [
     "logger",
     "log"
@@ -15,16 +15,12 @@
     "node": ">=4.0.0"
   },
   "scripts": {
-    "test": "lab -c -v -L -a code",
-    "test-cover": "lab -c -v -L -a code -r html -o ./coverage.html -L && open ./coverage.html"
-  },
-  "dependencies": {
-    "async": "1.5.x",
-    "joi": "8.1.x"
+    "test": "lab -c -v -L -a code"
   },
   "devDependencies": {
+    "test-console": "1.0.x",
     "coveralls": "2.11.x",
-    "code": "3.0.x",
-    "lab": "10.7.x"
+    "code": "4.0.x",
+    "lab": "11.1.x"
   }
 }
