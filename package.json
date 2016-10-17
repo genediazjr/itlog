@@ -2,8 +2,10 @@
   "name": "itlog",
   "version": "0.1.0",
   "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
-  "description": "Yet another javascript logger",
+  "description": "Simplest of Loggers.",
   "keywords": [
+    "simple",
+    "simplest",
     "logger",
     "log"
   ],

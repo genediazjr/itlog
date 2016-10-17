@@ -8,7 +8,7 @@ itlog
 [![Known Vulnerabilities](https://snyk.io/test/github/genediazjr/itlog/badge.svg)](https://snyk.io/test/github/genediazjr/itlog)
 [![NSP Status](https://nodesecurity.io/orgs/genediazjr/projects/633aba2a-177b-49a6-bb4e-121136749642/badge)](https://nodesecurity.io/orgs/genediazjr/projects/633aba2a-177b-49a6-bb4e-121136749642)
 
-Yet another javascript logger.
+Simplest of Loggers
 
 ### Usage
 
