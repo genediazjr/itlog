@@ -13,6 +13,9 @@
   "repository": "git://github.com/genediazjr/itlog",
   "bugs": "https://github.com/genediazjr/itlog/issues",
   "main": "lib/index.js",
+  "bin": {
+    "itlog": "./bin/itlog"
+  },
   "engines": {
     "node": ">=4.0.0"
   },
