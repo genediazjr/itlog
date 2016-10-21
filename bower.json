@@ -1,0 +1,24 @@
+{
+  "name": "itlog",
+  "description": "Simplest of Loggers.",
+  "keywords": [
+    "simple",
+    "simplest",
+    "logger",
+    "log"
+  ],
+  "homepage": "https://github.com/genediazjr/itlog",
+  "authors": [
+    "Gene Diaz <genediazjr@gmail.com>"
+  ],
+  "license": "MIT",
+  "main": "dist/itlog.min.js",
+  "ignore": [
+    "**/.*",
+    "bin",
+    "lib",
+    "test",
+    "node_modules",
+    "bower_components"
+  ]
+}
