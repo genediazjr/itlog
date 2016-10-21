@@ -14,8 +14,13 @@ Simplest of Loggers
 
 ```js
 // Node
-const log = require('itlog');
-log('Hello world!');
+const itlog = require('itlog');
+itlog('Hello world!');
+```
+
+```js
+// Browser
+itlog('Hello world!'); // itlog is attached on window
 ```
 
 ### Contributing
