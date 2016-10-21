@@ -12,7 +12,7 @@
     "Gene Diaz <genediazjr@gmail.com>"
   ],
   "license": "MIT",
-  "main": "dist/itlog.min.js",
+  "main": "dist/itlog.js",
   "ignore": [
     "**/.*",
     "bin",

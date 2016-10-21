@@ -20,11 +20,12 @@
     "node": ">=4.0.0"
   },
   "babel": {
-    "presets": ["es2015", "babili"]
+    "presets": ["es2015"]
   },
   "scripts": {
     "test": "lab -c -v -L -a code",
-    "build": "babel lib/index.js --out-file dist/itlog.min.js"
+    "build": "babel lib/index.js --out-file dist/itlog.js",
+    "minify": "babel lib/index.js --out-file dist/itlog.min.js --presets=babili"
   },
   "devDependencies": {
     "babel-preset-es2015": "6.16.x",
