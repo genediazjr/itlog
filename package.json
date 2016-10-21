@@ -19,10 +19,17 @@
   "engines": {
     "node": ">=4.0.0"
   },
+  "babel": {
+    "presets": ["es2015", "babili"]
+  },
   "scripts": {
-    "test": "lab -c -v -L -a code"
+    "test": "lab -c -v -L -a code",
+    "build": "babel lib/index.js --out-file dist/itlog.min.js"
   },
   "devDependencies": {
+    "babel-preset-es2015": "6.16.x",
+    "babel-preset-babili": "0.0.x",
+    "babel-cli": "6.16.x",
     "coveralls": "2.11.x",
     "rewire": "2.5.x",
     "code": "4.0.x",
