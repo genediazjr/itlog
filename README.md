@@ -20,7 +20,7 @@ itlog('Hello world!');
 
 ```js
 // Browser
-itlog('Hello world!'); // itlog is attached on window
+itlog('Hello world!'); // uses itlog namespace
 ```
 
 ### Contributing
