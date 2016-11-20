@@ -2,7 +2,7 @@
   "name": "itlog",
   "version": "0.2.1",
   "author": "Gene Diaz <genediazjr@gmail.com> (http://genediazjr.com)",
-  "description": "Simplest of Loggers.",
+  "description": "Simplest of Loggers",
   "keywords": [
     "simple",
     "simplest",
@@ -28,12 +28,12 @@
     "minify": "babel lib/index.js --out-file dist/itlog.min.js --presets=babili"
   },
   "devDependencies": {
-    "babel-preset-es2015": "6.16.x",
+    "babel-preset-es2015": "6.18.x",
     "babel-preset-babili": "0.0.x",
-    "babel-cli": "6.16.x",
+    "babel-cli": "6.18.x",
     "coveralls": "2.11.x",
     "rewire": "2.5.x",
     "code": "4.0.x",
-    "lab": "11.1.x"
+    "lab": "11.2.x"
   }
 }
