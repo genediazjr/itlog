@@ -5,7 +5,6 @@
 [![NPM Version](https://badge.fury.io/js/itlog.svg)](https://www.npmjs.com/itlog)
 [![NPM Downloads](https://img.shields.io/npm/dt/itlog.svg?maxAge=2592000)](https://www.npmjs.com/itlog)<br>
 [![Known Vulnerabilities](https://snyk.io/test/github/genediazjr/itlog/badge.svg)](https://snyk.io/test/github/genediazjr/itlog)
-[![NSP Status](https://nodesecurity.io/orgs/genediazjr/projects/633aba2a-177b-49a6-bb4e-121136749642/badge)](https://nodesecurity.io/orgs/genediazjr/projects/633aba2a-177b-49a6-bb4e-121136749642)
 [![Dependency Status](https://david-dm.org/genediazjr/itlog.svg)](https://david-dm.org/genediazjr/itlog)
 
 Simplest of Loggers
